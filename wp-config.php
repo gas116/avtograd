@@ -20,6 +20,8 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
+define('WP_CACHE', true);
+define( 'WPCACHEHOME', 'E:\os\OSPanel\domains\localhost\avtograd.gs\wp-content\plugins\wp-super-cache/' );
 define('DB_NAME', 'avtograd-gs');
 
 /** Имя пользователя MySQL */

@@ -11,9 +11,4 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
-
-<div id="wrapper"  class="main-wrapper" role="main">
-
-    <!--//= template/header.html-->
-    <div id="fullpage" role="main">
+<body id="root">
